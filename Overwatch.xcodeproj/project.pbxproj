@@ -15,8 +15,12 @@
 		7D69AE801DAAF58B006B180A /* OverwatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D69AE7F1DAAF58B006B180A /* OverwatchTests.swift */; };
 		7DC007E51DB9B18C004A9268 /* HeroNameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC007E41DB9B18C004A9268 /* HeroNameTests.swift */; };
 		7DC007E71DB9B3DF004A9268 /* HeroTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC007E61DB9B3DF004A9268 /* HeroTypeTests.swift */; };
-		7DC007EA1DB9B654004A9268 /* WeaponProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC007E91DB9B654004A9268 /* WeaponProtocolTests.swift */; };
 		7DC007EC1DB9B8B5004A9268 /* OverwatchHeroProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC007EB1DB9B8B5004A9268 /* OverwatchHeroProtocolTests.swift */; };
+		E82226891DBA5B21001C65E4 /* HeroAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82226881DBA5B21001C65E4 /* HeroAttributes.swift */; };
+		E822268B1DBA5F31001C65E4 /* OverwatchHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = E822268A1DBA5F31001C65E4 /* OverwatchHero.swift */; };
+		E822268D1DBA65EE001C65E4 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = E822268C1DBA65EE001C65E4 /* Hero.swift */; };
+		E822268F1DBA6971001C65E4 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = E822268E1DBA6971001C65E4 /* Game.swift */; };
+		E82226911DBA8F6E001C65E4 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82226901DBA8F6E001C65E4 /* SelectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,11 @@
 		7DC007E61DB9B3DF004A9268 /* HeroTypeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroTypeTests.swift; sourceTree = "<group>"; };
 		7DC007E91DB9B654004A9268 /* WeaponProtocolTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeaponProtocolTests.swift; sourceTree = "<group>"; };
 		7DC007EB1DB9B8B5004A9268 /* OverwatchHeroProtocolTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverwatchHeroProtocolTests.swift; sourceTree = "<group>"; };
+		E82226881DBA5B21001C65E4 /* HeroAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroAttributes.swift; sourceTree = "<group>"; };
+		E822268A1DBA5F31001C65E4 /* OverwatchHero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverwatchHero.swift; sourceTree = "<group>"; };
+		E822268C1DBA65EE001C65E4 /* Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		E822268E1DBA6971001C65E4 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		E82226901DBA8F6E001C65E4 /* SelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +97,11 @@
 				7D69AE6A1DAAF58B006B180A /* AppDelegate.swift */,
 				7D69AE6C1DAAF58B006B180A /* ViewController.swift */,
 				7D69AE6E1DAAF58B006B180A /* Main.storyboard */,
+				E82226901DBA8F6E001C65E4 /* SelectionViewController.swift */,
+				E82226881DBA5B21001C65E4 /* HeroAttributes.swift */,
+				E822268E1DBA6971001C65E4 /* Game.swift */,
+				E822268C1DBA65EE001C65E4 /* Hero.swift */,
+				E822268A1DBA5F31001C65E4 /* OverwatchHero.swift */,
 				7D69AE711DAAF58B006B180A /* Assets.xcassets */,
 				7D69AE731DAAF58B006B180A /* LaunchScreen.storyboard */,
 				7D69AE761DAAF58B006B180A /* Info.plist */,
@@ -221,8 +235,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E822268D1DBA65EE001C65E4 /* Hero.swift in Sources */,
+				E822268F1DBA6971001C65E4 /* Game.swift in Sources */,
 				7D69AE6D1DAAF58B006B180A /* ViewController.swift in Sources */,
 				7D69AE6B1DAAF58B006B180A /* AppDelegate.swift in Sources */,
+				E82226891DBA5B21001C65E4 /* HeroAttributes.swift in Sources */,
+				E822268B1DBA5F31001C65E4 /* OverwatchHero.swift in Sources */,
+				E82226911DBA8F6E001C65E4 /* SelectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,7 +252,6 @@
 				7DC007E71DB9B3DF004A9268 /* HeroTypeTests.swift in Sources */,
 				7DC007E51DB9B18C004A9268 /* HeroNameTests.swift in Sources */,
 				7D69AE801DAAF58B006B180A /* OverwatchTests.swift in Sources */,
-				7DC007EA1DB9B654004A9268 /* WeaponProtocolTests.swift in Sources */,
 				7DC007EC1DB9B8B5004A9268 /* OverwatchHeroProtocolTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
